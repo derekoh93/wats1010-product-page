@@ -1,8 +1,12 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
-
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+body h1 {
+  background-image:url('assets/logos/api_superstore_logo_bg.png');
+  background-size: cover;
+}
+#watch{
+  position: absolute;
+  right: 300px;
+  width: 500px;
+  top: 0px;
 }
