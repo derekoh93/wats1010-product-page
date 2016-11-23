@@ -1,12 +1,27 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
-body h1 {
-  background-image:url('assets/logos/api_superstore_logo_bg.png');
-  background-size: cover;
+html{
+  background-image: url(api.png);
+}
+header {
+postion: relative;
+	width: 1750px;
+	height: 400px;
+	margin: 0 auto;
+	background: url(api_superstore_logo_bg.png) no-repeat center;
+	padding-top: 20px;
+	height: 87px;
+}
+header h1{
+  display: none;
+}
+
+html li{
+  list-style-type: none;
 }
 #watch{
   position: absolute;
-  right: 300px;
+  right: 250px;
   width: 500px;
-  top: 0px;
+  top: 125px;
 }
