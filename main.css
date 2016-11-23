@@ -18,10 +18,17 @@ header h1{
 
 html li{
   list-style-type: none;
+
+  }  
+.summary{
+  font: italic 1.1em/2.2 Arial;
+	text-align: center;
+	margin-top: 25px;
+	color: black;
 }
 #watch{
-  position: absolute;
+  position:absolute;
   right: 250px;
   width: 500px;
-  top: 125px;
+  top: 200px;
 }
