@@ -11,6 +11,7 @@ postion: relative;
 	background: url(api_superstore_logo_bg.png) no-repeat center;
 	padding-top: 20px;
 	height: 87px;
+	
 }
 header h1{
   display: none;
@@ -20,15 +21,40 @@ html li{
   list-style-type: none;
 
   }  
+
 .summary{
   font: italic 1.1em/2.2 Arial;
 	text-align: center;
 	margin-top: 25px;
 	color: black;
 }
+
 #watch{
   position:absolute;
   right: 250px;
   width: 500px;
   top: 200px;
 }
+#Testimonials img{
+	width: 200px;
+	height: 200px;
+}
+#purchase{
+	position: absolute;
+	right: 250px;
+	width: 500px;
+	top: 750px;
+}
+#purchase img{
+	width: 300px;
+	height: 300px;
+}
+
+footer{
+	position: absolute;
+	right: 250px;
+	width: 500px;
+	top: 1250px;
+}
+
+
