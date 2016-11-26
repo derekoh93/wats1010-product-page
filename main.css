@@ -3,6 +3,9 @@
 html{
   background-image: url(api.png);
 }
+body p{
+	color: yellow;
+}
 header {
 postion: relative;
 	width: 1750px;
