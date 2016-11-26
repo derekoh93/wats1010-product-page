@@ -3,7 +3,16 @@
 html{
   background-image: url(api.png);
 }
-
+body p{
+	color: yellow;
+	font: 100% Arial, sans-serif;
+	line-height: 1.1;
+}
+body li{
+	color: yellow;
+	font: 100% Arial, sans-serif;
+	line-height: 1.1;
+}
 header {
 postion: relative;
 	width: 1750px;
