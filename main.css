@@ -3,9 +3,7 @@
 html{
   background-image: url(api.png);
 }
-body p{
-	color: yellow;
-}
+
 header {
 postion: relative;
 	width: 1750px;
@@ -39,7 +37,7 @@ html li{
   top: 200px;
 }
 #Testimonials img{
-	width: 200px;
+	width: 300px;
 	height: 200px;
 }
 #purchase{
