@@ -5,6 +5,10 @@ html{
 	background-size: cover;
 }
 
+html li{
+  list-style-type: none;
+  }  
+
 body p{
 	color: black;
 	font: 100% Arial, sans-serif;
@@ -34,10 +38,20 @@ header h1{
   display: none;
 }
 
-html li{
-  list-style-type: none;
-
-  }  
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: 	#4169E1;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
 
 .summary{
   font: italic 1.1em/2.2 Arial;
@@ -66,6 +80,7 @@ html li{
 #purchase img{
 	width: 300px;
 	height: 300px;
+
 }
 
 footer{
