@@ -14,12 +14,14 @@ body p{
 	font: 100% Arial, sans-serif;
 	line-height: 1.1;
 	margin-left: 50px;
+	font-size: 20px;
 }
 body li{
 	color: black;
 	font: 100% Arial, sans-serif;
 	line-height: 1.1;
 	margin-left: 25px;
+	font-size: 20px;
 }
 body h2{
 	margin-left: 25px;
@@ -36,6 +38,17 @@ postion: relative;
 }
 header h1{
   display: none;
+}
+nav ul li{
+  display: inline;
+  border: solid 1px black;
+  font-size: 16px;
+  background-color: white;
+	margin-left: 0px;
+}
+nav{
+	margin-top: 110px;
+	margin-left: 0px;
 }
 
 a:link { 
@@ -70,7 +83,9 @@ a:hover, a:focus, a:active {
 	width: 300px;
 	height: 200px;
 	margin-left: 50px;
+	list-style: none;
 }
+
 #purchase{
 	position: absolute;
 	right: 300px;
